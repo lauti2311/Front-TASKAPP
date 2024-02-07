@@ -1,7 +1,7 @@
 import { Task } from "../../types/Task";
 import { Link } from "react-router-dom";
 const CategoriasTareas = ({tasks}: {tasks:Task[]}) => {
-  const categorias = ['PORHACER', 'ENPRODUCCION','PORTESTEAR', 'COMPLETADO'];
+  const categorias = ['PORHACER', 'ENPRODUCCION','PORTESTEAR', 'COMPLETADA'];
   return (
     <section className="container-fluid mt-5" id="categorias">
       {categorias.map((categoria,index)=>(
